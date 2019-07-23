@@ -1,0 +1,21 @@
+{
+  "name": "count-down-in-fb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --mode=development --watch",
+    "build": "webpack --mode=production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.3",
+    "webpack": "^4.37.0",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "preact": "^8.4.2"
+  }
+}
